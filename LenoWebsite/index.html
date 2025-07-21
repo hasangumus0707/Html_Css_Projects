@@ -36,7 +36,7 @@
                         <a href="#preview" class="navbar__menu-link">Preview</a>
                     </li>
                     <li class="navbar__menu-item">
-                        <a href="#details" class="navbar__menu-link">Details</a>
+                        <a href="detail.html" class="navbar__menu-link">Details</a>
                     </li>
                     <li class="navbar__menu-item">
                         <a href="#download" class="navbar__menu-link">Download</a>
@@ -224,14 +224,15 @@
                         <img src="./images/features-smartphone-1.png" alt="">
                     </div>
 
-                     <div class="features__grid-column features__grid-column-right">
+                    <div class="features__grid-column features__grid-column-right">
                         <!-- Grid Item 1-->
                         <div class="features__grid-item">
                             <div class="features__grid-item-text">
                                 <h4 class="features__grid-item-text-title">
                                     Calendar Input
                                 </h4>
-                                <p class="features__grid-item-text-description">Seamlessly integrate your calendar to stay organized and on track.</p>
+                                <p class="features__grid-item-text-description">Seamlessly integrate your calendar to
+                                    stay organized and on track.</p>
                             </div>
                             <div class="features__grid-item-icon">
                                 <i class="fa-solid fa-calendar fa-4x"></i>
@@ -244,7 +245,8 @@
                                 <h4 class="features__grid-item-text-title">
                                     Easy Reading
                                 </h4>
-                                <p class="features__grid-item-text-description">Enjoy distraction-free reading with Leno's clean and intuitive interface.</p>
+                                <p class="features__grid-item-text-description">Enjoy distraction-free reading with
+                                    Leno's clean and intuitive interface.</p>
                             </div>
                             <div class="features__grid-item-icon">
                                 <i class="fa-solid fa-book fa-4x"></i>
@@ -257,7 +259,8 @@
                                 <h4 class="features__grid-item-text-title">
                                     Good Foundation
                                 </h4>
-                                <p class="features__grid-item-text-description">Leno is built on a solid foundation of user feedback and cutting-edge technology.
+                                <p class="features__grid-item-text-description">Leno is built on a solid foundation of
+                                    user feedback and cutting-edge technology.
 
                                 </p>
                             </div>
@@ -271,6 +274,205 @@
         </div>
     </section>
     <!--End Features-->
+
+    <!-- Start Modal-->
+    <div class="modal" id="videoModal">
+        <div class="modal__content">
+            <span class="modal__close-button">&times;</span>
+            <iframe id="videoPlayer" src="" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- End Modal-->
+
+    <!--Start Preview-->
+    <section class="preview" id="preview">
+        <div class="preview__container container">
+            <div class="preview__content">
+                <h2 class="preview__title">Preview</h2>
+                <p class="preview__description">
+                    Take a sneak peek at Leno's sleek and intuitive interface:
+                </p>
+                <div class="preview__image-container">
+                    <div class="preview__video-wrapper">
+                        <img src="./images/video-frame.jpg" alt="preview">
+                        <button class="preview__video-button">
+                            <span class="preview__video-play-button">
+                                <span></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Preview-->
+
+
+    <!-- Start Details-->
+    <section class="details" id="details">
+        <div class="details__container container">
+            <div class="details__grid">
+
+                <!--Grid Item 1-->
+                <div class="details__grid-images">
+                    <img src="./images/details-1.png" alt="Leno App">
+                </div>
+
+                <!--Grid Item 2-->
+                <div class="details__grid-content">
+                    <h3 class="details__grid-heading">
+                        Start using Leno today and set your long term goals
+                    </h3>
+                    <p class="details__grid-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eligendi, unde quis cupiditate ex
+                        labore veritatis quaerat aspernatur aut ipsa?
+                    </p>
+                    <a href="detail.html" class="details__grid-button btn">More</a>
+                </div>
+
+                <!--Grid Item 3-->
+                <div class="details__grid-content">
+                    <h3 class="details__grid-heading">
+                        The calendar feature helps you schedule tasks </h3>
+                    <p class="details__grid-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eligendi, unde quis cupiditate ex
+                        labore veritatis quaerat aspernatur aut ipsa?
+                    </p>
+                    <a href="detail.html" class="details__grid-button btn">More</a>
+                </div>
+
+                <!--Grid Item 4-->
+                <div class="details__grid-images">
+                    <img src="./images/details-2.png" alt="Leno App">
+                </div>
+            </div>
+
+            <!--Icons-->
+            <div class="details__icons">
+                <div class="details__icons-item">
+                    <i class="fa-solid fa-users fa-4x"></i>
+                    <div class="details__icons-amount">
+                        55,000
+                    </div>
+                    <h4 class="details__icons-title">Happy Customers</h4>
+                </div>
+                <div class="details__icons-item">
+                    <i class="fa-solid fa-code fa-4x"></i>
+                    <div class="details__icons-amount">585</div>
+                    <h4 class="details__icons-title">Issues Solved</h4>
+                </div>
+                <div class="details__icons-item">
+                    <i class="fa-solid fa-comments fa-4x"></i>
+                    <div class="details__icons-amount">788</div>
+                    <h4 class="details__icons-title">Good Reviews</h4>
+                </div>
+                <div class="details__icons-item">
+                    <i class="fa-solid fa-rocket fa-4x"></i>
+                    <div class="details__icons-amount">100</div>
+                    <h4 class="details__icons-title">Case Studies</h4>
+                </div>
+                <div class="details__icons-item">
+                    <i class="fa-solid fa-edit fa-4x"></i>
+                    <div class="details__icons-amount">110</div>
+                    <h4 class="details__icons-title">Press Article</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Details-->
+
+    <!--Start Screenshots-->
+    <section class="screenshots" id="screenshots">
+        <div class="screenshots__container container">
+            <div class="screenshot__content">
+                <h2 class="screenshots__title">Screenshots</h2>
+                <div class="screenshots__images">
+                    <img src="./images/screenshot-1.png" alt="Screenshot">
+                    <img src="./images/screenshot-2.png" alt="Screenshot">
+                    <img src="./images/screenshot-3.png" alt="Screenshot">
+                    <img src="./images/screenshot-4.png" alt="Screenshot">
+                    <img src="./images/screenshot-5.png" alt="Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Screenshots-->
+
+    <!--Start Download-->
+    <section class="download" id="download">
+        <div class="download__container container">
+            <div class="download__content">
+                <p class="download__description">
+                    Download Leno today to see the benefits and enjoy the results faster than any other app out there
+                </p>
+                <div class="download__buttons">
+                    <a href="details.html" class="download__button btn">
+                        <i class="fa-brands fa-apple"></i>For Apple
+                    </a>
+                    <a href="details.html" class="download__button btn">
+                        <i class="fa-brands fa-android"></i>For Android
+                    </a>
+                </div>
+            </div>
+            <div class="download__image">
+                <img src="./images/download.png" alt="Download">
+            </div>
+        </div>
+    </section>
+    <!--End Download-->
+
+    <!--Start Footer-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__about">
+                <h4 class="footer__title">About Leno</h4>
+                <p class="footer__description">Leno is a mobile app that helps you stay focused and improve your
+                    productivity. The app provides you with tools to set goals, track your progress, and maintain a
+                    healthy work-life balance.</p>
+            </div>
+
+            <div class="footer__links">
+                <h4 class="footer__title">Quick Links</h4>
+                <ul class="footer__links-list">
+                    <li class="footer__links-item">
+                     <a href="#" class="footer__links-link">Home</a>   
+                    </li>
+                    <li class="footer__links-item">
+                     <a href="index.html#testimonials" class="footer__links-link">Testimonials</a>   
+                    </li>
+                    <li class="footer__links-item">
+                     <a href="index.html#features" class="footer__links-link">Features</a>   
+                    </li>
+                    <li class="footer__links-item">
+                     <a href="index.html#preview" class="footer__links-link">Preview</a>   
+                    </li>
+                    <li class="footer__links-item">
+                     <a href="index.html#details" class="footer__links-link">Details</a>   
+                    </li>
+                    <li class="footer__links-item">
+                     <a href="index.html#download" class="footer__links-link">Download</a>   
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <a href="#" class="footer__social-link">
+                    <i class="fa-brands fa-facebook fa-3x"></i>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <i class="fa-brands fa-twitter fa-3x"></i>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <i class="fa-brands fa-instagram fa-3x"></i>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
 
     <script src="./js/script.js"></script>
 </body>
