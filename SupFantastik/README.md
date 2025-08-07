@@ -118,7 +118,7 @@ npx http-server
 ```
 
 3. **Canlı Demo:**
-Projeyi [GitHub Pages](https://hasangumus0707.github.io/Html_Css_Projects/SupFantastik/) üzerinden görüntüleyebilirsiniz.
+Projeyi https://www.supfantastik.page/ üzerinden görüntüleyebilirsiniz.
 
 ## 📱 Responsive Breakpoints
 
